@@ -12,6 +12,26 @@ GitHub Fork Sync is a Python script that automatically updates your forked repos
 - Utilizes GitHub API for efficient updates
 - Easy configuration using environment variables
 
+## Usage
+
+Clone the repo:
+```
+git clone https://github.com/DeffoN0tSt3/Git-Fork-Sync-Py.git
+```
+```
+cd Git-Fork-Sync-Py
+```
+
+Edit .env 
+- add repo name(s) comma separated 
+- add your Git access token
+
+
+``` py forkSync.py```
+
+The script will automatically update the specified forked repositories on GitHub by syncing them with their upstream counterparts.
+
+
 ## Prerequisites
 
 - Python 3.8+
@@ -29,3 +49,12 @@ You can install them using the following command:
 
 ```
 pip install requests python-dotenv
+```
+
+### License
+
+This code is licensed under the MIT License - see the LICENSE file for details.
+
+### Disclaimer
+
+Please use this script responsibly and do not use it to create unnecessary load on GitHub's servers. The author is not responsible for any misuse or any damages resulting from the use of this script.
